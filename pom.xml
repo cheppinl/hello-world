@@ -54,9 +54,9 @@
   </dependencies>
 
 	<scm>
-		<connection>scm:git@github.com:cheppinl/hello-world.git</connection>
-		<url>scm:git@github.com:cheppinl/hello-world.git</url>
-		<developerConnection>scm:git@github.com:cheppinl/hello-world.git</developerConnection>
+		<connection>scm:git:git@github.com:cheppinl/hello-world.git</connection>
+		<url>scm:git:git@github.com:cheppinl/hello-world.git</url>
+		<developerConnection>scm:git:git@github.com:cheppinl/hello-world.git</developerConnection>
 	</scm>
   
 	<distributionManagement>
