@@ -3,7 +3,7 @@
 
   <groupId>com.yonyou.hrcloud</groupId>
   <artifactId>hrcloud-test</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.4-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>hrcloud-test</name>
