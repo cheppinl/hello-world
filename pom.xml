@@ -1,11 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                       http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
   <groupId>com.yonyou.hrcloud</groupId>
   <artifactId>hrcloud-test</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <packaging>jar</packaging>
 
   <name>hrcloud-test</name>
@@ -57,16 +55,17 @@
 		<connection>scm:git:git@github.com:cheppinl/hello-world.git</connection>
 		<url>scm:git:git@github.com:cheppinl/hello-world.git</url>
 		<developerConnection>scm:git:git@github.com:cheppinl/hello-world.git</developerConnection>
-	</scm>
+	  <tag>v0.0.1</tag>
+  </scm>
   
 	<distributionManagement>
-		<!-- ÅäÖÃ¿ìÕÕ°æ±¾·¢²¼µÄ²Ö¿â -->
+		<!-- ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½Õ°æ±¾ï¿½ï¿½ï¿½ï¿½ï¿½Ä²Ö¿ï¿½ -->
 		<snapshotRepository>
 			<id>nccloud-snapshots</id>
 			<name>nccloud Snapshots Repository</name>
 			<url>http://maven.yonyou.com/nexus/content/repositories/nccloud-snapshots/</url>
 		</snapshotRepository>
-		<!-- ÅäÖÃrelease°æ±¾·¢²¼µÄ²Ö¿â -->
+		<!-- ï¿½ï¿½ï¿½ï¿½releaseï¿½æ±¾ï¿½ï¿½ï¿½ï¿½ï¿½Ä²Ö¿ï¿½ -->
 		<repository>
 			<id>nccloud-releases</id>
 			<name>nccloud Releases Repository</name>
@@ -125,7 +124,7 @@
 			</configuration>
 		</plugin>
 
-		  <!-- ¸´ÖÆÒÀÀµÎÄ¼þµ½Í¬¼¶Ä¿Â¼ -->
+		  <!-- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½Í¬ï¿½ï¿½Ä¿Â¼ -->
 		  <!--plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-shade-plugin</artifactId>
