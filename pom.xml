@@ -55,23 +55,24 @@
 		<connection>scm:git:git@github.com:cheppinl/hello-world.git</connection>
 		<url>scm:git:git@github.com:cheppinl/hello-world.git</url>
 		<developerConnection>scm:git:git@github.com:cheppinl/hello-world.git</developerConnection>
-	  <tag>HEAD</tag>
   </scm>
   
 	<distributionManagement>
-		<!-- ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½Õ°æ±¾ï¿½ï¿½ï¿½ï¿½ï¿½Ä²Ö¿ï¿½ -->
+		<!-- ²âÊÔ¿â -->
 		<snapshotRepository>
 			<id>nccloud-snapshots</id>
 			<name>nccloud Snapshots Repository</name>
 			<url>http://maven.yonyou.com/nexus/content/repositories/nccloud-snapshots/</url>
 		</snapshotRepository>
-		<!-- ï¿½ï¿½ï¿½ï¿½releaseï¿½æ±¾ï¿½ï¿½ï¿½ï¿½ï¿½Ä²Ö¿ï¿½ -->
+
+		<!-- Ô¤·¢°æ¿â -->
 		<repository>
-			<id>nccloud-releases</id>
-			<name>nccloud Releases Repository</name>
-			<url>http://maven.yonyou.com/nexus/content/repositories/nccloud-releases/</url>
+			<id>nccloud-stagings</id>
+			<name>nccloud Staging Repository</name>
+			<url>http://maven.yonyou.com/nexus/content/repositories/nccloud-stagings/</url>
 		</repository>
 	</distributionManagement>
+
 
 	<build>
 	  <plugins>
